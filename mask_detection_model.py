@@ -33,7 +33,7 @@ import sys
 
 # In[3]:
 
-
+#initialize the initia learning rate,number of epochs to train for, and batch size
 INIT_LR = 1e-4
 EPOCHS = 7
 BS = 32
@@ -43,7 +43,7 @@ CATEGORIES = ["with_mask", "without_mask"]
 
 
 # In[4]:
-
+#grab the list of images in the dataset directory,then initalize list of data and class images
 
 data = []
 labels = []
